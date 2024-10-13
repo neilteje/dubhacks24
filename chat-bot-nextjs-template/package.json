@@ -1,0 +1,43 @@
+{
+    "type": "module",
+    "name": "next-js-chat-bot-template",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "format:write": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\"",
+        "format": "prettier \"**/*.{css,js,json,jsx,ts,tsx}\""
+    },
+    "dependencies": {
+        "@llm-tools/embedjs": "^0.0.91",
+        "@pinecone-database/pinecone": "^2.2.2",
+        "@types/node": "20.14.10",
+        "@types/react": "18.3.3",
+        "@types/react-dom": "18.3.0",
+        "@vercel/analytics": "^1.3.1",
+        "autoprefixer": "^10.4.19",
+        "clsx": "^2.1.1",
+        "encoding": "^0.1.13",
+        "eslint": "^8.57.0",
+        "eslint-config-next": "^14.2.4",
+        "lucide-react": "^0.401.0",
+        "next": "^14.2.4",
+        "postcss": "^8.4.39",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-markdown": "^9.0.1",
+        "react-textarea-autosize": "^8.5.3",
+        "remark-gfm": "^4.0.0",
+        "sonner": "^1.5.0",
+        "tailwindcss": "^3.4.4",
+        "typescript": "^5.5.3"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.13",
+        "prettier": "^3.3.2",
+        "prettier-plugin-tailwindcss": "^0.6.5"
+    }
+}
